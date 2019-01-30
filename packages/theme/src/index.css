@@ -1,4 +1,9 @@
-@import './splitter.css';
-body{
-   background: #fff; 
+@import './divider.css';
+:root{
+   --font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+/* 分割线 */
+.sn-divider{
+   --divider-linecolor: #e8e8e8;
+   --divider-fontcolor: rgba(0, 0, 0, 0.85);
 }
