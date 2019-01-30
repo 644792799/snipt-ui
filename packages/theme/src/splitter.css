@@ -1,0 +1,18 @@
+.sn-splitter{
+    text-align: center;
+    position: relative;
+}
+
+.sn-splitter::before{
+    content: '';
+    height: 1px;
+    width: 50%;
+    border-bottom: 1px solid #69666686;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.sn-splitter .sn-alert__description{
+    color: #69666686;
+}
