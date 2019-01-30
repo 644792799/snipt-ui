@@ -1,7 +1,7 @@
-import Splitter from './splitter/index.js';
+import Divider from './divider/index.js';
 
 const components = [
-    Splitter
+    Divider
 ];
 
 const install = function (Vue) {
@@ -20,5 +20,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
     version: '1.0.1',
     install,
-    Splitter
+    Divider
 };
